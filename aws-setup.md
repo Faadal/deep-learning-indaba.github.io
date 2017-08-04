@@ -23,7 +23,7 @@ Console" button. It will direct you to a signup page which looks like the
 following.
 
 <div class='fig figcenter fighighlight'>
-  <img src='/assets/aws-new-user.png'>
+  <img src='/assets/aws-new-user.png' width='500'>
 </div>
 
 Select the "I am a new user" checkbox, click the "Sign in using our secure
@@ -39,13 +39,13 @@ click on "Sign In to the Console", and this time sign in using your username and
 password.
 
 <div class='fig figcenter fighighlight'>
-  <img src='/assets/aws-signin.png'>
+  <img src='/assets/aws-signin.png' width='500'>
 </div>
 
 Once you have signed in, you will be greeted by a page like this:
 
 <div class='fig figcenter fighighlight'>
-  <img src='/assets/aws-home.png'>
+  <img src='/assets/aws-home.png' width='500'>
 </div>
 
 Make sure that the region information on the top right is set to London.
@@ -61,12 +61,12 @@ Next, click on the EC2 link (first link under the Compute category). You will go
 to a dashboard page like this:
 
 <div class='fig figcenter fighighlight'>
-  <img src='/assets/aws-ec2.png'>
+  <img src='/assets/aws-ec2.png' width='500'>
 </div>
 
 Click the blue "Launch Instance" button, and you will be redirected to a page
 like the following:
 
 <div class='fig figcenter fighighlight'>
-  <img src='/assets/aws-ami.png'>
+  <img src='/assets/aws-ami.png' width='500'>
 </div>
