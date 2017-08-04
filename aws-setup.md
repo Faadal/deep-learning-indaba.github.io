@@ -22,7 +22,7 @@ Console" button. It will direct you to a signup page which looks like the
 following.
 
 <div class='fig figcenter fighighlight'>
-  <img src='/assets/aws-signup.png'>
+  <img src='/assets/aws-new-user.png'>
 </div>
 
 Select the "I am a new user" checkbox, click the "Sign in using our secure
