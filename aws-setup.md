@@ -44,7 +44,7 @@ password.
 Once you have signed in, you will be greeted by a page like this:
 
 <div class='fig figcenter fighighlight'>
-  <img src='/assets/aws-homepage.png'>
+  <img src='/assets/aws-home.png'>
 </div>
 
 Make sure that the region information on the top right is set to London.
@@ -60,12 +60,12 @@ Next, click on the EC2 link (first link under the Compute category). You will go
 to a dashboard page like this:
 
 <div class='fig figcenter fighighlight'>
-  <img src='/assets/ec2-dashboard.png'>
+  <img src='/assets/aws-ec2.png'>
 </div>
 
 Click the blue "Launch Instance" button, and you will be redirected to a page
 like the following:
 
 <div class='fig figcenter fighighlight'>
-  <img src='/assets/ami-selection.png'>
+  <img src='/assets/aws-ami.png'>
 </div>
