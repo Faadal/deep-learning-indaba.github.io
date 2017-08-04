@@ -3,6 +3,7 @@ layout: page
 title: AWS Setup Instructions
 permalink: /aws-setup/
 ---
+# Amazon Web Services Setup Instructions
 
 Amazon Web Services (AWS) is one of the world's largest cloud service providers. They allow users to run certain virtual machines (VMs) (and other services) in the cloud for free! 
 We will use free VMs on AWS to run the practicals for the Indaba. We have created an "image" for your VMs with all the tools you need pre-installed to make this as easy as possible.
