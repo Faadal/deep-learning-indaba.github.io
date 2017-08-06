@@ -14,7 +14,7 @@ This first step is to create an Amazon account which will give you access to the
 usually requires you to provide the details of a *credit card*. Note that as long as you stay within the free tier, your credit card *will not be charged*. It is
 only used for vertification purposes and you will only be billed if you exceed your free tier usage. If you follow this guide, you will not exceed this usage. 
 We understand that some of you may not have personal credit cards and may not be able to borrow one from friends or family. If you can't get access to a 
-credit card, please stop here, fill in your name and email address in on *this spreadsheet* and the head tutor will contact you with further instructions. 
+credit card, please stop here, fill in [this form](https://goo.gl/forms/nRP1WJPSp1uShmkp2) and the head tutor will contact you with further instructions. 
 
 ### I have a credit card and don't have an AWS account
 If you don't have an AWS account already, create one by going to the [AWS
@@ -70,3 +70,55 @@ like the following:
 <div class='fig figcenter fighighlight'>
   <img src='/assets/aws-ami.png' width='60%'>
 </div>
+
+Click on the "Community AMIs" link in the left menu and then type "deep-learning-indaba-test-vm" in the search box. The AMI should come up in the box. Click on the blue "Select" button. 
+
+<div class='fig figcenter fighighlight'>
+  <img src='/assets/aws-community.png' width='60%'>
+</div>
+
+Click on the blue "Review and Launch" button
+
+Click on the blue "Launch" button
+
+You will now be asked to create a "key-pair". This is used to access your Virtual Machine through the command line. You will not need to do this to run the Indaba practicals, but it might be useful later on and may be necessary to trouble shoot your VM if it is having issues. Therefore, we will choose "Create a new key pair" in the drop down menu. Give it any name you like, for example "indaba-vm" and then click "Download key pair". This will download a file to your machine which you should keep safely for future use. 
+
+Once you have downloaded the key pair, click on the blue "Launch Instance" button. 
+
+Amazon will now start your VM, this may take a few minutes.
+
+## Step 3: Connect to Jupyter Notebooks on your VM
+Click on the "Services" menu in the top left and click on "EC2" in the "Compute" section to go to the EC2 Dashboard from earlier. 
+
+Under "Resources", click on the "Running Instances" link
+
+You should now see your VM in the table (Note there are 2 instances in this screenshot, but you should only have 1 if you followed these instructions) 
+
+Note what it says under the "Status Check" column. If it says "Initializing" like the first row in the screenshot, you will need a wait a bit longer for Amazon to finish creating and intializing your VM. If it has a green tick with the text "2/2 checks passed" then you are ready to connect! 
+
+Click on the checkbox corresponding to your VM
+
+You will see, near the bottom of the screen, some text saying "Public DNS: <SOMETHING>.eu-west-2.compute.amazonaws.com". This is the public address of your VM that you can use to connect to. Copy this to your clipboard (not the "Public DNS: " part!). 
+
+Now you can navigate in your browser to to http://<PASTE MY PUBLIC DNS>:5555. You should see a page saying "Refreshed Notebooks" - this means that the latest versions of the practicals are now on your VM! :) 
+
+To access Jupyer Notebooks, navigate to:
+
+https://<PASTE MY PUBLIC DNS>:8888  (Note the httpS!) 
+
+If it asks you for a password, enter "wits2017" without the quotes. You are now at the home page of the practicals! 
+
+
+
+
+
+
+
+On the "Choose Instance Type" screen, leave the default selection that is marked with the green "Free tier eligible" tag. 
+
+# Troubleshooting
+
+### I can't find the deep-learning-indaba AMI
+Make sure that your AWS region is set to EU (London) as the image will only be visible in that region. 
+
+
