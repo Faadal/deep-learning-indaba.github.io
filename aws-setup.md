@@ -77,22 +77,48 @@ Click on the "Community AMIs" link in the left menu and then type "deep-learning
   <img src='/assets/aws-community.png' width='60%'>
 </div>
 
-Click on the blue "Review and Launch" button
+You will now be taken to the "Choose an Instance Type" page, where you can select what type of machine you want to use to run your VM. Leave the default selection of "t2.micro" that has the green "free tier eligible" tag. 
 
-Click on the blue "Launch" button
+<div class='fig figcenter fighighlight'>
+  <img src='/assets/aws-instance-type.png' width='60%'>
+</div>
+
+Click on the blue "Review and Launch" button which will take you to the review page: 
+
+<div class='fig figcenter fighighlight'>
+  <img src='/assets/aws-review.png' width='60%'>
+</div>
+
+Click on the blue "Launch" button.
 
 You will now be asked to create a "key-pair". This is used to access your Virtual Machine through the command line. You will not need to do this to run the Indaba practicals, but it might be useful later on and may be necessary to trouble shoot your VM if it is having issues. Therefore, we will choose "Create a new key pair" in the drop down menu. Give it any name you like, for example "indaba-vm" and then click "Download key pair". This will download a file to your machine which you should keep safely for future use. 
 
+<div class='fig figcenter fighighlight'>
+  <img src='/assets/aws-key-pair.png' width='60%'>
+</div>
+
 Once you have downloaded the key pair, click on the blue "Launch Instance" button. 
+
+<div class='fig figcenter fighighlight'>
+  <img src='/assets/aws-launch-status.png' width='60%'>
+</div>
 
 Amazon will now start your VM, this may take a few minutes.
 
 ## Step 3: Connect to Jupyter Notebooks on your VM
 Click on the "Services" menu in the top left and click on "EC2" in the "Compute" section to go to the EC2 Dashboard from earlier. 
 
+<div class='fig figcenter fighighlight'>
+  <img src='/assets/aws-ec2.png' width='60%'>
+</div>
+
 Under "Resources", click on the "Running Instances" link
 
 You should now see your VM in the table (Note there are 2 instances in this screenshot, but you should only have 1 if you followed these instructions) 
+
+<div class='fig figcenter fighighlight'>
+  <img src='/assets/aws-running-instance.png' width='60%'>
+</div>
 
 Note what it says under the "Status Check" column. If it says "Initializing" like the first row in the screenshot, you will need a wait a bit longer for Amazon to finish creating and intializing your VM. If it has a green tick with the text "2/2 checks passed" then you are ready to connect! 
 
@@ -100,15 +126,26 @@ Click on the checkbox corresponding to your VM
 
 You will see, near the bottom of the screen, some text saying "Public DNS: <SOMETHING>.eu-west-2.compute.amazonaws.com". This is the public address of your VM that you can use to connect to. Copy this to your clipboard (not the "Public DNS: " part!). 
 
-Now you can navigate in your browser to to http://<PASTE MY PUBLIC DNS>:5555. You should see a page saying "Refreshed Notebooks" - this means that the latest versions of the practicals are now on your VM! :) 
+<div class='fig figcenter fighighlight'>
+  <img src='/assets/aws-instance-dns.png' width='60%'>
+</div>
+
+Now you can navigate in your browser to to http://**PASTE MY PUBLIC DNS**:5555. You should see a page saying "Refreshed Notebooks" - this means that the latest versions of the practicals are now on your VM! :) 
+
+<div class='fig figcenter fighighlight'>
+  <img src='/assets/vm-refresh.png' width='60%'>
+</div>
+
 
 To access Jupyer Notebooks, navigate to:
 
-https://<PASTE MY PUBLIC DNS>:8888  (Note the httpS!) 
+https://**PASTE MY PUBLIC DNS**:8888  (Note the httpS!) 
 
 If it asks you for a password, enter "wits2017" without the quotes. You are now at the home page of the practicals! 
 
-
+<div class='fig figcenter fighighlight'>
+  <img src='/assets/jupyter-home.png' width='60%'>
+</div>
 
 
 
