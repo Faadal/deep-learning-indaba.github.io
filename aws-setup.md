@@ -164,13 +164,13 @@ Click on the checkbox corresponding to your VM
 You will see, near the bottom of the screen, some text saying "Public DNS: <SOMETHING>.eu-west-2.compute.amazonaws.com". This is the public address of your VM that you can use to connect to. Copy this to your clipboard (not the "Public DNS: " part!). 
 
 <div class='fig figcenter fighighlight'>
-  <img src='/assets/aws-instance-dns.png' width='60%'>
+  <img src='/assets/aws-instance-dns.png'>
 </div>
 
 Now you can navigate in your browser to to http://**PASTE MY PUBLIC DNS**:5555. You should see a page saying "Refreshed Notebooks" - this means that the latest versions of the practicals are now on your VM! :) 
 
 <div class='fig figcenter fighighlight'>
-  <img src='/assets/vm-refresh.png' width='60%'>
+  <img src='/assets/vm-refresh.png'>
 </div>
 
 
@@ -183,7 +183,7 @@ https://**PASTE MY PUBLIC DNS**:8888  (Note the httpS!)
 If it asks you for a password, enter "wits2017" without the quotes. You are now at the home page of the practicals! 
 
 <div class='fig figcenter fighighlight'>
-  <img src='/assets/jupyter-home.png' width='60%'>
+  <img src='/assets/jupyter-home.png'>
 </div>
 
 
