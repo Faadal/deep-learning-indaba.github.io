@@ -57,7 +57,7 @@ there.
  Amazon. If you have just signed up, this may take up to 2 hrs, and you may not be able to launch instances
  until your account verification is complete.)
 
-Next, click on the EC2 link (first link under the Compute category). You will go
+Next, click on the EC2 link (first link under the Compute category, which you'll find in the top Services menu). You will go
 to a dashboard page like this:
 
 <div class='fig figcenter fighighlight'>
@@ -148,7 +148,7 @@ Repeat the above, this time using a "Port Range" value of "8888". The dialog sho
   <img src='/assets/aws-add-rule.png'>
 </div>
 
-Click "OK" to return to the Security Group Page:
+Click "Save" to return to the Security Group Page:
 
 <div class='fig figcenter fighighlight'>
   <img src='/assets/aws-security-after.png'>
@@ -177,6 +177,8 @@ Now you can navigate in your browser to to http://**PASTE MY PUBLIC DNS**:5555. 
 To access Jupyer Notebooks, navigate to:
 
 https://**PASTE MY PUBLIC DNS**:8888  (Note the httpS!) 
+
+(At this point, your browser may issue a warning that the connection is not secure. This is because your VM doesn't have a valid SSL certificate. You can safely ignore this and proceed/create an exception - search how to do this for your browser if you are unsure.)
 
 If it asks you for a password, enter "wits2017" without the quotes. You are now at the home page of the practicals! 
 
