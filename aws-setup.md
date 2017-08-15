@@ -12,7 +12,7 @@ Follow this step-by-step guide to set your VMs set up in AWS!
 ## Step 1: Create an Account and Sign-in
 This first step is to create an Amazon account which will give you access to their free tier. As part of their identity verification policy, Amazon
 usually requires you to provide the details of a *credit card*. Note that as long as you stay within the free tier, your credit card *will not be charged*. It is
-only used for vertification purposes and you will only be billed if you exceed your free tier usage. If you follow this guide, you will not exceed this usage. 
+only used for verification purposes and you will only be billed if you exceed your free tier usage. If you follow this guide, you will not exceed this usage. 
 We understand that some of you may not have personal credit cards and may not be able to borrow one from friends or family. If you can't get access to a 
 credit card, please stop here, fill in [this form](https://goo.gl/forms/nRP1WJPSp1uShmkp2) and the head tutor will contact you with further instructions. 
 
@@ -54,7 +54,7 @@ there.
 
 ## Step 2: Launch the VM: 
 (Note that this step requires your account to be "Verified" by
- Amazon. If you have just signed up, this may take up to 2 hrs, and you may not be able to launch instances
+ Amazon. If you have just signed up, this may take up to 2 hours, and you may not be able to launch instances
  until your account verification is complete.)
 
 Next, click on the EC2 link (first link under the Compute category, which you'll find in the top Services menu). You will go
@@ -178,7 +178,11 @@ To access Jupyer Notebooks, navigate to:
 
 https://**PASTE MY PUBLIC DNS**:8888  (Note the httpS!) 
 
-(At this point, your browser may issue a warning that the connection is not secure. This is because your VM doesn't have a valid SSL certificate. You can safely ignore this and proceed/create an exception - search how to do this for your browser if you are unsure.)
+At this point, your browser may issue a warning that the connection is not secure. This is because your VM doesn't have a valid SSL certificate. You can safely ignore this and proceed/create an exception. In Chrome, simply click on 'ADVANCED' and then click on 'Proceed to <SOMETHING>.eu-west-2.compute.amazonaws.com (unsafe)'. If you are not using Chrome, please search how to do this for your browser if you are unsure.
+
+<div class='fig figcenter fighighlight'>
+  <img src='/assets/chrome_warning.png'>
+</div>
 
 If it asks you for a password, enter "wits2017" without the quotes. You are now at the home page of the practicals! 
 
