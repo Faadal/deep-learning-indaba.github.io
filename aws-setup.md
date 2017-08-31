@@ -167,16 +167,7 @@ You will see, near the bottom of the screen, some text saying "Public DNS: <SOME
   <img src='/assets/aws-instance-dns.png'>
 </div>
 
-Now you can navigate in your browser to to http://**PASTE MY PUBLIC DNS**:5555. You should see a page saying "Refreshed Notebooks" - this means that the latest versions of the practicals are now on your VM! :) 
-
-<div class='fig figcenter fighighlight'>
-  <img src='/assets/vm-refresh.png'>
-</div>
-
-
-To access Jupyer Notebooks, navigate to:
-
-https://**PASTE MY PUBLIC DNS**:8888  (Note the httpS!) 
+Now you can navigate in your browser to to http://**PASTE MY PUBLIC DNS**:5555. This should download the latest practicals to your VM and redirect you to Jupyer Notebooks.
 
 At this point, your browser may issue a warning that the connection is not secure. This is because your VM doesn't have a valid SSL certificate. You can safely ignore this and proceed/create an exception. In Chrome, simply click on 'ADVANCED' and then click on 'Proceed to <SOMETHING>.eu-west-2.compute.amazonaws.com (unsafe)'. If you are not using Chrome, please search how to do this for your browser if you are unsure.
 
@@ -192,8 +183,10 @@ If it asks you for a password, enter "wits2017" without the quotes. You are now 
 
 
 # Troubleshooting
+Here are some solutions to common issues. If you have a different issue or are still unsure, please post on Piazza and one of the tutors will get back to you.
 
 ### I can't find the deep-learning-indaba AMI
 Make sure that your AWS region is set to EU (London) as the image will only be visible in that region. 
 
-
+### Nothing happens after browsing to http://**PASTE MY PUBLIC DNS**:5555
+Make sure you replaced the correct public dns correctly. If it still doesn't work, make sure that you followed the "configure security" section, as AWS will reject connections if you have not done this. 
