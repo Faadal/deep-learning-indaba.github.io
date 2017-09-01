@@ -71,7 +71,7 @@ like the following:
   <img src='/assets/aws-ami.png'>
 </div>
 
-Click on the "Community AMIs" link in the left menu and then type "deep-learning-indaba-test-vm" in the search box. The AMI should come up in the box. Click on the blue "Select" button. 
+Click on the "Community AMIs" link in the left menu and then type "deep-learning-indaba-vm" in the search box. The AMI should come up in the box. Click on the blue "Select" button. 
 
 <div class='fig figcenter fighighlight'>
   <img src='/assets/aws-community.png'>
