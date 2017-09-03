@@ -48,9 +48,9 @@ Once you have signed in, you will be greeted by a page like this:
   <img src='/assets/aws-home.png'>
 </div>
 
-Make sure that the region information on the top right is set to London.
+**NB: Make sure that the region information on the top right is set to London.
 If it is not, change it to EU(London) by selecting from the dropdown menu
-there.
+there. **
 
 ## Step 2: Launch the VM: 
 (Note that this step requires your account to be "Verified" by
