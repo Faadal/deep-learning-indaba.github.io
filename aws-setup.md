@@ -53,6 +53,8 @@ Once you have signed in, you will be greeted by a page like this:
 If it is not, change it to EU(London) by selecting from the dropdown menu
 there.**
 
+**NB: At this point, DO NOT click on the "Launch a virtual machine" button as this will give you a "Region Unsupported" error**
+
 ## Step 2: Launch the VM: 
 (Note that this step requires your account to be "Verified" by
  Amazon. If you have just signed up, this may take up to 2 hours, and you may not be able to launch instances
